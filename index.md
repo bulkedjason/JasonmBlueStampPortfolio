@@ -1,5 +1,5 @@
 # Ball Tracking Robot
-Using compnents like motors....
+Using components like the raspberry pi, sonars and motors, the robot uses them in tandem to track and follow a red ball. Additionally, I added a linear actuator and a relay module to shoot at the ball. 
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
@@ -39,7 +39,9 @@ For your second milestone, explain what you've worked on since your previous mil
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+- What needs to be completed before your final milestone
+
+
 
 # First Milestone
 
@@ -47,11 +49,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KWApl1w_IGM?si=avCXKORX-d3MFxxl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+The ball tracking robot, a self-explanitory name, tracks a big red ball. In milestone 1, I plan to complete the hardware components of the robot, mainly in getting the raspberry pi ready and powering the motors through it. First, I started with setting up the raspberrypi. I flashed my sd card and inserted it into the pi. However, I had problems ssding it to my computer. I had to connect my raspberrypi to my TV, and it finally worked. For the robot, I started off with the base plate, which I attached the motor wheels and a support wheel to help with turning. Due to only having male to male wires, I wired the raspberrypi to the motors through the breadboard. I plan to get my raspberrypi camera set up and getting the robot to track the ball through it. 
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
