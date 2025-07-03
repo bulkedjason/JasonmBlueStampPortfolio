@@ -1,4 +1,4 @@
-# Ball Tracking Robot
+ # Ball Tracking Robot
 Using components like the raspberry pi, sonars and motors, the robot uses them in tandem to track and follow a red ball. Additionally, I added a linear actuator and a relay module to shoot at the ball. 
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
@@ -26,7 +26,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
-
+In milestone 3, I got my milestone 2 goals done through a linear actuator and a relay module. The linear actuator is electromagnetic, so the rod that is launched will only stay on if the linear actuator has power. When powered, the rod's spring is compressed. The power is turned off and the rod launches out. The relay module helps control the power by closing and opening the circuit. One of my biggest challenges in this project was connecting to the raspberrypi. It was a nessesary step in completeing the robot. However, solving that problem was one of my biggest triumphs. I connected the raspberrypi to my TV and connected it to the wifi from there. I learned a lot about breadboards, wiring, raspberrypi, sonars, etc. I hope to continue to further progress my knowledge on these things and much more. 
 
 
 # Second Milestone
@@ -35,11 +35,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FQwBctQzHsA?si=1fnNRMI-f3Pny9SY&amp;start=44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone
+The goals I set in milestone 1 are finally compeleted. In milestone 2, I got my raspberrypi camera working and got the robot to track and follow the ball. First, I started with my sonar cameras. I got their base screwed onto the baseplate, and I got them plugged into the raspberrypi. After that, I worked on its code and got it to track distance correctly. I downloaded the raspberrypi camera data and attached it to the raspberrypi itself. After that, all I needed to do was the code. This was the trickest part of the project in my opinion. It was difficult to understand the code and implement the next steps. After I sat down and understood it, I got the movement of the robot working. Now, my robot is finished. In milestone 3, I plan to add my own twist to the project. I came up with the idea of getting something to shoot at the robot, and I ordered the parts.
 
 
 
