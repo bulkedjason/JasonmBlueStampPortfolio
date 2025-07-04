@@ -17,21 +17,12 @@ You should comment out all portions of your portfolio that you have not complete
   
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
 In milestone 3, I got my milestone 2 goals done through a linear actuator and a relay module. The linear actuator is electromagnetic, so the rod that is launched will only stay on if the linear actuator has power. When powered, the rod's spring is compressed. The power is turned off and the rod launches out. The relay module helps control the power by closing and opening the circuit. One of my biggest challenges in this project was connecting to the raspberrypi. It was a nessesary step in completeing the robot. However, solving that problem was one of my biggest triumphs. I connected the raspberrypi to my TV and connected it to the wifi from there. I learned a lot about breadboards, wiring, raspberrypi, sonars, etc. I hope to continue to further progress my knowledge on these things and much more. 
 
 
 # Second Milestone
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FQwBctQzHsA?si=1fnNRMI-f3Pny9SY&amp;start=44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -40,8 +31,6 @@ The goals I set in milestone 1 are finally compeleted. In milestone 2, I got my 
 
 
 # First Milestone
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KWApl1w_IGM?si=avCXKORX-d3MFxxl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
