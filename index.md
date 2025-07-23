@@ -5,9 +5,9 @@ Using components like the raspberry pi, sonars and motors, my robot uses them in
 |:--:|:--:|:--:|:--:|
 | Jason M | Lowell Highschool | Electrical Engineering | Incoming Softmore
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
-![Headstone Image](logo.svg)
+![Headstone Image](IMG_9638.jpeg)
+![Headstone Image](IMG_9639.jpeg)
+![Headstone Image](IMG_9642.jpeg)
   
 # Final Milestone
 
