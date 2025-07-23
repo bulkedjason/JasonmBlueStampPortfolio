@@ -1,11 +1,5 @@
 # Ball Tracking Robot
-Using components like the raspberry pi, sonars and motors, the robot uses them in tandem to track and follow a red ball. Additionally, I added a linear actuator and a relay module to shoot at the ball. 
-
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
+Using components like the raspberry pi, sonars and motors, my robot uses them in tandem to track and follow a red ball. Additionally, I added a linear actuator and a relay module to shoot at the ball. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -25,7 +19,7 @@ In milestone 3, I got my milestone 2 goals done through a linear actuator and a 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FQwBctQzHsA?si=1fnNRMI-f3Pny9SY&amp;start=44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-The goals I set in milestone 1 are finally completed. In milestone 2, I got my raspberrypi camera working and got the robot to track and follow the ball. First, I started with my sonar cameras. I got their base screwed onto the baseplate, and I got them plugged into the raspberrypi. After that, I worked on its code and got it to track distance correctly. I downloaded the raspberrypi camera data and attached it to the raspberrypi itself. After that, all I needed to do was the code. This was the trickiest part of the project in my opinion. It was difficult to understand the code and implement the next steps. After I sat down and understood it, I got the movement of the robot working. Now, my robot is finished. In milestone 3, I plan to add my own twist to the project. I came up with the idea of getting something to shoot at the robot, and I ordered the parts.
+In milestone 2, I got my raspberrypi camera working and got the robot to track and follow the ball. First, I started with my sonar cameras. I got their base screwed onto the baseplate, and I got them plugged into the raspberrypi. After that, I worked on its code and got it to track distance correctly. I downloaded the raspberrypi camera data and attached it to the raspberrypi itself. After that, all I needed to do was the base code. This was the trickiest part of the project in my opinion. It was difficult to modify the base code and add the parts I needed. After I sat down and understood it, I got the movement of the robot working. Now, my robot is finished. In milestone 3, I plan to add my own twist to the project. I came up with the idea of making my robot be able to launch a projectile at the ball when it comes close, and I ordered the parts.
 
 
 
@@ -34,13 +28,11 @@ The goals I set in milestone 1 are finally completed. In milestone 2, I got my r
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KWApl1w_IGM?si=avCXKORX-d3MFxxl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-The ball tracking robot, a self-explanatory name, tracks a big red ball. In milestone 1, I plan to complete the hardware components of the robot, mainly in getting the raspberry pi ready and powering the motors through it. First, I started with setting up the raspberrypi. I flashed my sd card and inserted it into the pi. However, I had problems ssding it to my computer. I had to connect my raspberrypi to my TV, and it finally worked. For the robot, I started off with the base plate, which I attached the motor wheels and a support wheel to help with turning. Due to only having male to male wires, I wired the raspberrypi to the motors through the breadboard. I plan to get my raspberrypi camera set up and get the robot to track the ball through it. 
+The ball tracking robot, a self-explanatory name, tracks a big red ball. In milestone 1, I plan to complete the hardware components of the robot, mainly in getting the raspberry pi ready and powering the motors through it. First, I started with setting up the raspberrypi. I flashed my sd card and inserted it into the pi. However, I had problems ssding it to my computer. I had to connect my raspberrypi to my TV. I logged onto the wifi through there, and it finally worked For the robot, I started off with the base plate, which I attached the motor wheels and a support wheel to help with turning. Due to only having male to male wires, I wired the raspberrypi to the motors through the breadboard. I plan to get my raspberrypi camera set up and get the robot to track the ball through it. 
 
-# Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser.
 
 # Code
-
+The code is written on VScode through python.
 ```
 from picamera2 import Picamera2
 import RPi.GPIO as GPIO
@@ -288,11 +280,3 @@ if __name__ == '__main__':
 | USB power bank | Powers the raspberry pi | $16.19 | <a href="https://www.amazon.com/SIXTHGU-Portable-Charger-Charging-Flashlight/dp/B0C7PHKKNK/ref=sr_1_2_sspa?crid=2ZZM4AAZMMWHQ&dib=eyJ2IjoiMSJ9.W2Zx5_I3mKOn6UpwAzOw6PD0PNh1iaMRBiedequdv9weeWL0HPyPcxJBR9h6-LiFW-sHKnHSApN0sUxx0Q9xIRs80R57IlvvCsmEzXcktogo-4nP-NxrEZOy5dJTcXY8N-PBwfGt4fl_9LP8npenzDUV9TPA8KN6DMu175g6JegC_gZhAJrbqX94EfpQhLwP9vIJH45w2N-AFrfZZOy9jqk55gzVyk4Qst8uZvqn768.KBrc5_SqZ4e8zCpoFc-1C7rk02t3o2ykgDPB65W5JJU&dib_tag=se&keywords=always%2Bon%2Bpower%2Bbank&qid=1715957917&sprefix=always%2Bon%2Bpower%2Bbank%2Caps%2C107&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"> Link </a> |
 | Relay | Turns on and off power for the linear solenoid | $6.99 | <a href="https://www.amazon.com/AEDIKO-Channel-Optocoupler-Isolation-Support/dp/B095YD3732?crid=1ZRHXRKW3TTWU&dib=eyJ2IjoiMSJ9.Ap3Z-NOR6vRNRVHVIJGgGQN4S8-VoiEZWfvBqwBW2MN_D9y9nlGHPUNT1iPiH-iBemnwoieDQofpNhUFJNzGtVusSy61XW-thn3hBKKAaJMBs1h5m6XkFugTeLSLftz4HAsEzJCIaWIIwhuFqDeuI3W6p83LZf1ppsiVrj_vU1QZDsxnQp2mvN49uZdzpRHGLraMnlizvQxvDPfQ8tiEp1JVs30ihcwJKy7Rd53kzANkpxnJDz_vtFo8kABhZaQJk-ueLebqkh3yYjscgKwj80zZGtRUvvjgEKYcoAdhEa8.HfQdWrfzSeClzFpRCNaEM-Qr6AfUDwJPMwGCnCP2yPI&dib_tag=se&keywords=arduino%2Brelay&qid=1750950739&s=industrial&sprefix=arduino%2Brela%2Cindustrial%2C457&sr=1-1&th=1"> Link </a> |
 | Linear Solenoid | Shoots at the robot | $15.99 | <a href="https://www.amazon.com/Solenoid-Electromagnet-Actuator-Electric-DS-0420S/dp/B0BMVDPWS3/132-5188632-1212317?pd_rd_w=8PUvL&content-id=amzn1.sym.6640a844-ab24-4352-ac9b-78899e683a5e&pf_rd_p=6640a844-ab24-4352-ac9b-78899e683a5e&pf_rd_r=RXYGNRW41001KTNCRTP0&pd_rd_wg=FrFO0&pd_rd_r=af5cb0dd-453c-460a-9cf9-aa12a21f40ae&pd_rd_i=B0BMVDPWS3&psc=1"> Link </a> |
-
-# Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
-
-To watch the BSE tutorial on how to create a portfolio, click here.
