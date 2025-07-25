@@ -11,7 +11,7 @@ Using components like the raspberry pi, sonars and motors, my robot uses them in
   
 # Final Milestone
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rZf8G_30CWw?si=uK3pFLyacpFRMIGt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 In milestone 3, I got my milestone 2 goals done through a linear actuator and a relay module. The linear actuator is electromagnetic, so the rod that is launched will only stay on if the linear actuator has power. When powered, the rod's spring is compressed. The power is turned off and the rod launches out. The relay module helps control the power by closing and opening the circuit. One of my biggest challenges in this project was connecting to the raspberry pi. It was a necessary step in completing the robot. However, solving that problem was one of my biggest triumphs. I connected the raspberrypi to my TV and connected it to the wifi from there. I learned a lot about breadboards, wiring, raspberrypi, sonars, etc. I hope to continue to further progress my knowledge on these things and much more. 
 
